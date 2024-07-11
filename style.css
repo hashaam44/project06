@@ -186,3 +186,44 @@ nav ul li:hover {
 .gift-section{
     scroll-margin: 120px;
 }
+@media(max-width: 600px){
+    nav {
+        padding: 20px 20px;
+        margin: auto;
+        justify-content: space-around;
+    }
+     nav .logo{
+        padding: 15px;
+        margin: auto;
+    }
+    nav ul li{
+        padding: 15px;
+    }
+    .ipad-iphone-img img{
+        margin-top: -400px;
+        position: relative;
+        justify-content: center;
+        top: 400px;
+        width: 100%;
+    
+    }
+    .mac-img img{
+        width: 100%;
+        justify-content: center;
+    }
+    .gift-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gift-content h3{
+        text-align: center;
+    }
+    .gift-content p{
+        text-align: justify;
+        padding: 10px;
+    }
+    .secondry-btn{
+        margin-left: 40%;
+    }
+    
+}
