@@ -196,8 +196,9 @@ nav ul li:hover {
         padding: 15px;
         margin: auto;
     }
-    nav ul li{
-        padding: 15px;
+    nav ul{
+        margin-right: 20px;
+        gap: 10px;
     }
     .ipad-iphone-img img{
         margin-top: -400px;
@@ -222,8 +223,17 @@ nav ul li:hover {
         text-align: justify;
         padding: 10px;
     }
-    .secondry-btn{
-        margin-left: 40%;
+    .gift-card img{
+        width: 100%;
+        justify-content: center;
     }
-    
+    .secondry-btn{
+        margin-left: 45%;
+    }
+    .footer_upper{
+        margin-right: 20px;
+    }
+    .footer-lower{
+        margin-right: 20px;
+    }
 }
