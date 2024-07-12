@@ -186,20 +186,22 @@ nav ul li:hover {
 .gift-section{
     scroll-margin: 120px;
 }
-@media(max-width: 400px){
+@media(max-width: 520px){
+    
     nav {
-        padding: 20px 20px;
+        display: block;
+        flex-direction: column;
+        padding: 15px 15px;
         margin: auto;
-        justify-content: space-around;
+        justify-content: center;
     }
      nav .logo{
         padding: 15px;
         margin: auto;
+        font-size: 40px;
+        
     }
-    nav ul{
-        margin-right: 20px;
-        gap: 10px;
-    }
+    
     .ipad-iphone-img img{
         margin-top: -400px;
         position: relative;
@@ -230,10 +232,53 @@ nav ul li:hover {
     .secondry-btn{
         margin-left: 45%;
     }
-    .footer_upper{
-        margin-right: 20px;
+    .footer_upper .container{
+        display: block;
     }
-    .footer-lower{
-        margin-right: 20px;
+}
+@media(max-width: 720px){
+    nav {
+        display: block;
+        padding: 20px 20px;
+        margin: auto;
+        justify-content: center;
+    }
+     nav .logo{
+        padding: 15px;
+        margin: auto;
+        font-size: 45px;
+     }
+    .ipad-iphone-img img{
+        margin-top: -400px;
+        position: relative;
+        justify-content: center;
+        top: 400px;
+        width: 100%;
+    
+    }
+    .mac-img img{
+        width: 100%;
+        justify-content: center;
+    }
+    .gift-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gift-content h3{
+        text-align: center;
+    }
+    .gift-content p{
+        text-align: justify;
+        padding: 10px;
+    }
+    .gift-card img{
+        width: 100%;
+        justify-content: center;
+    }
+    .secondry-btn{
+        margin-left: 45%;
+    }
+    .footer_upper .container{
+        display: block;
     }
 }
